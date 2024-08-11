@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    color:white;
+}
+
+body{
+    background-color: rgb(3, 92, 134);
+    text-align:center;
+    background-image: url("vote.png");
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content:left;
+    align-items:center;
+    height: 70px;
+    background-color: rgb(201, 233, 246);
+    padding: 0 20px;
+    font-size:20px;
+    color:black;
+}
+.logo{
+    background-image: url("logo.png");
+    height:50px;
+    width:60px;
+    background-size: cover;
+}
+.name{
+    text-decoration: none;
+    color: rgb(7, 3, 53);
+    font-size: 30px;
+    font-weight: bold;
+}
